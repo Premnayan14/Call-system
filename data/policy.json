@@ -1,0 +1,18 @@
+{
+    "admin": [
+        "read_file",
+        "write_file",
+        "list_processes",
+        "spawn_process",
+        "ping_host",
+        "system_info"
+    ],
+    "standard_user": [
+        "read_file",
+        "ping_host",
+        "system_info"
+    ],
+    "guest": [
+        "system_info"
+    ]
+}
